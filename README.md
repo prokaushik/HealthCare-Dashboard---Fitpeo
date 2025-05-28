@@ -1,13 +1,41 @@
-# HealthCare-Dashboard---Fitpeo
+# 🩺 Fitpeo Healthcare Dashboard (React + Vite)
+
+A clean, modern, and fully responsive Healthcare Dashboard built for Fitpeo's web developer assignment. Designed using React and Vite, with a modular component structure and real-world layout inspired by modern admin panels.
+
+[🔗 Live Demo on Netlify](https://lucky-tartufo-bc4bd0.netlify.app)
+
+---
+
+## 📸 Preview
 
 ![image](https://github.com/user-attachments/assets/d23b2b6b-76f8-4301-9954-23471a453e0b)
 
+---
 
-Currently, two official plugins are available:
+## 🧪 Tech Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- **Frontend**: React (with Vite)
+- **Styling**: Pure CSS with flex/grid layout
+- **Icons**: [Lucide React](https://lucide.dev)
+- **Deployment**: Netlify
+- **Version Control**: Git + GitHub
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📁 Folder Structure
+
+```bash
+src/
+├── components/
+│   ├── Header/
+│   ├── Sidebar/
+│   ├── DashboardMainContent/
+│       ├── AnatomySection/
+│       ├── HealthStatusCards/
+│       ├── CalendarView/
+│       ├── UpcomingSchedule/
+│       ├── ActivityFeed/
+├── data/
+│   └── appointments.js
+├── App.jsx
+├── main.jsx
