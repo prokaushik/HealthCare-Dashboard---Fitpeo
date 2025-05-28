@@ -1,6 +1,7 @@
-# React + Vite
+# HealthCare-Dashboard---Fitpeo
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![image](https://github.com/user-attachments/assets/d23b2b6b-76f8-4301-9954-23471a453e0b)
+
 
 Currently, two official plugins are available:
 
