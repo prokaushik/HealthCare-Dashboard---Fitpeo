@@ -1,0 +1,65 @@
+.dashboard-layout {
+  display: grid;
+  grid-template-columns: 25% 25% 50%;
+  grid-template-areas:
+    "anatomy health calendar"
+    "activity activity schedule";
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 20px;
+}
+
+
+.anatomy {
+  grid-area: anatomy;
+}
+.health {
+  grid-area: health;
+}
+.calendar {
+  grid-area: calendar;
+}
+.activity {
+  grid-area: activity;
+}
+.schedule {
+  grid-area: schedule;
+}
+
+.box {
+  background-color: #ffff;
+  padding: 5px;
+  border-radius: 12px;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.04);
+  padding-bottom: 0px;
+}
+
+@media (max-width: 1023px) {
+  .dashboard-layout {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "anatomy health"
+      "calendar calendar"
+      "activity activity";
+  }
+}
+
+@media (max-width: 767px) {
+  .dashboard-layout {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "anatomy"
+      "health"
+      "calendar"
+      "activity";
+  }
+
+  .calendar-box,
+  .anatomy,
+  .health,
+  .activity {
+    padding: 15px;
+  }
+}
+

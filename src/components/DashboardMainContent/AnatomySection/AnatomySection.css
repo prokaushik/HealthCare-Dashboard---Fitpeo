@@ -1,0 +1,40 @@
+.anatomy-section {
+  padding: 0px;
+}
+
+.anatomy-container {
+  position: relative;
+  width: 100%;
+  max-width: 300px;
+  padding: 0;
+  margin: 0;
+}
+
+.anatomy-image {
+  width: 100%;
+  height: 350px;
+  display: block;
+  border-radius: 10px;
+}
+
+.indicator {
+  position: absolute;
+  font-size: 12px;
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 4px 6px;
+  border-radius: 6px;
+  white-space: nowrap;
+  transform: translate(-50%, -50%);
+  font-weight: 500;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.indicator.good {
+  border-left: 4px solid #4caf50;
+  color: #4caf50;
+}
+
+.indicator.bad {
+  border-left: 4px solid #e53935;
+  color: #e53935;
+}

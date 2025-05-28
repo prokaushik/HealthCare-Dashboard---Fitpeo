@@ -1,0 +1,25 @@
+.simple-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background-color: #fff;
+  padding: 12px 15px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.03);
+}
+
+.simple-card .icon {
+  font-size: 20px;
+}
+
+.simple-card .info h5 {
+  margin: 0;
+  font-size: 15px;
+  color: #333;
+}
+
+.simple-card .info p {
+  margin: 0;
+  font-size: 13px;
+  color: #666;
+}

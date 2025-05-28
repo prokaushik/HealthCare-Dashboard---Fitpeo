@@ -1,0 +1,31 @@
+.health-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 12px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-left: 4px solid #ddd;
+}
+
+.card h4 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.card .date {
+  font-size: 13px;
+  color: #888;
+  margin: 5px 0;
+}
+
+.card .status {
+  font-size: 14px;
+  font-weight: bold;
+}
